@@ -10,8 +10,6 @@ import java.io.IOException;
 import javax.swing.RowFilter;
 
 
-
-
 public class ExcelParser extends javax.swing.JFrame {
     String filename = null; 
     private final RowFilter format = null;
@@ -19,8 +17,12 @@ public class ExcelParser extends javax.swing.JFrame {
         byte[] file = null;
     public ExcelParser() {
         initComponents();
+        
     }
-
+    
+    
+    
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
