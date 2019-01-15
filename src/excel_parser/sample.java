@@ -8,7 +8,7 @@ public class sample {
     public sample(String d) {
         this.d = d;
     }
-
+   
     public String getD() {
         return d;
     }
