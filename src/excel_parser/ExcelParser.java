@@ -85,28 +85,28 @@ public class ExcelParser extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-//        BufferedReader fileReader = null;
-//        final String DELIMITER = ",";
-//        try{
-//            String line = "";
-//            fileReader = new BufferedReader(new FileReader(filename));
-//            while ((line = fileReader.readLine()) != null)
-//            {
-//                String[] tokens = line.split(DELIMITER);
-//                for(String token : tokens)           
-//                {
-//                    System.out.println(token);
-//                }
-//            }
-//        }catch (Exception e) {
-//            e.printStackTrace();
-//            }finally{
-//            try {
-//                fileReader.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
+        BufferedReader fileReader = null;
+        final String DELIMITER = ",";
+        try{
+            String line = "";
+            fileReader = new BufferedReader(new FileReader(filename));
+            while ((line = fileReader.readLine()) != null)
+            {
+                String[] tokens = line.split(DELIMITER);
+                for(String token : tokens)           
+                {
+                    System.out.println(token);
+                }
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+            }finally{
+            try {
+                fileReader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void pathMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pathMouseClicked
