@@ -17,22 +17,6 @@ public class ExcelParser extends javax.swing.JFrame {
     public ExcelParser() {
         initComponents();
         
-//      initComponents();
-        //sdfsdfsdbfvjsdvfsdf
-        //dsfvsdkfvsfsf
-        //sdfsdfsdff
-        
-        
-        
-//        sample gibhub commit
-        
-//        BufferedReader fileReader = null;
-//        final String DELIMITER = ",";
-        
-        //sample sample sample sample sample
-        
-        //asdfsdfsdfsdfberkuf,jrevfkucgeflegrouwfdscvskhcdalvdasvdvauydwferqwlquwfr
-        //Sample Sample Sample
     }
 
     @SuppressWarnings("unchecked")
